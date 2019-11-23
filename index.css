@@ -1,0 +1,43 @@
+body {
+	background-color: #090c38;
+}
+
+.content {
+	background-color: white;
+	height: 200px;
+}
+
+h4 {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 2vw;
+}
+
+h6 {
+	font-size: 1.65vw;
+}
+
+#options, #cart {
+	padding-bottom: 10px;
+}
+
+#button {
+	margin-top: 35px;
+}
+
+#add, #delete {
+	margin-bottom: 20px;
+	background-color: #f8a22f;
+	color: white;
+	opacity: 0.5;
+	font-size: 1.5vw;
+}
+
+#f1:hover, #f2:hover, #f3:hover, #f4:hover {
+	background-color: #f8a22f;
+	cursor: pointer;
+}
+
+.container {
+	margin-bottom: 1vw;
+}

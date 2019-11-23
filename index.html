@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FoodApp</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">FoodApp</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Our Food</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Plans</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<div class="jumbotron text-center">
+  <h1>Have no time to prepare food?</h1>
+  <p>Choose one of our plans, enter delivery time and enjoy delicious food without leaving your home!</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-4 content">
+      <h4>Available Options</h4>
+      <div id="options">
+      	<h6 onclick="addbutton()" id="f1">Pizza</h6>
+      	<h6 onclick="addbutton()" id="f2">Burger</h6>
+      	<h6 onclick="addbutton()" id="f3">Chicken Pasta</h6>
+      	<h6 onclick="addbutton()" id="f4">Grilled Sandwich</h6>
+      </div>
+    </div>
+    <div class="col-4 text-center" id="button">
+      <button type="button" class="btn" id="add">Add to cart</button>
+      <br>
+      <button type="button" class="btn" id="delete">Remove from cart</button>
+    </div>
+    <div class="col-4 content">
+      <h4>Your Cart</h4>  
+      <div id="cart">
+        
+      </div>     
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
+
+
