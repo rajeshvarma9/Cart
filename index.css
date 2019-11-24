@@ -5,12 +5,12 @@ body {
 
 .content {
 	background-color: white;
-	height: 20vw;
+	height: 32vw;
 }
 
 h4 {
-	padding-top: 10px;
-	padding-bottom: 5px;
+	padding-top: 1.5vw;
+	padding-bottom: 1vw;
 	font-size: 2vw;
 }
 
@@ -18,12 +18,8 @@ h6 {
 	font-size: 1.65vw;
 }
 
-#options, #cart {
-	padding-bottom: 10px;
-}
-
 #button {
-	margin-top: 35px;
+	margin-top: 8vw;
 }
 
 #add, #delete {
@@ -44,12 +40,18 @@ h6 {
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
+.content {
+	height: 45vw;
+}
 .row {
 	margin-right: 5px;
 	margin-left: 5px;
 }
 .container {
 	margin-bottom: 5vw;
+}
+h4 {
+	font-size: 3vw;
 }
 h6 {
 	font-size: 2.5vw;
@@ -59,8 +61,31 @@ h6 {
 }
 }
 
+@media (min-width: 320px) and (max-width: 325px) {
+	h4 {
+	padding-top: 1vw;
+}
+#options, #cart {
+	margin-top: -1vw;
+}
+}
+
 @media (min-width: 768px) and (max-width: 1440px) {
 .container {
 	margin-bottom: 2vw;
 }
+}
+
+div#f1 h6, div#f2 h6, div#f3 h6, div#f4 h6 {
+	display: inline;
+	margin-left: 0.8vw;
+}
+
+#f1, #f2, #f3, #f4 {
+	margin-bottom: 1vw;
+}
+
+img {
+	width: 20%;
+	height: auto;
 }
