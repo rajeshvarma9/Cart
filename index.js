@@ -1,6 +1,6 @@
 function addbutton() {
     var x = event.target.id;
-	var element = '<h6 onclick="deletebutton()" id=' + event.target.id + '>' + document.getElementById(event.target.id).innerHTML + '</h6>';
+	var element = '<div onclick="deletebutton()" id=' + event.target.id + '>' + document.getElementById(event.target.id).innerHTML + '</div>';
 	document.getElementById('add').style.opacity = 1;
 	document.getElementById('add').onclick = function() {
 	  document.getElementById('add').style.opacity = 0.5;
@@ -16,7 +16,7 @@ function addbutton() {
 
 function deletebutton() {
     var x = event.target.id;
-	var element = '<h6 onclick="addbutton()" id=' + event.target.id + '>' + document.getElementById(event.target.id).innerHTML + '</h6>';
+	var element = '<div onclick="addbutton()" id=' + event.target.id + '>' + document.getElementById(event.target.id).innerHTML + '</div>';
 	document.getElementById('delete').style.opacity = 1;
 	document.getElementById('delete').onclick = function() {
 	  document.getElementById('delete').style.opacity = 0.5;
