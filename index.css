@@ -5,7 +5,7 @@ body {
 
 .content {
 	background-color: white;
-	height: 200px;
+	height: 20vw;
 }
 
 h4 {
@@ -44,9 +44,6 @@ h6 {
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
-	.content {
-	 height: 150px;
-}
 .row {
 	margin-right: 5px;
 	margin-left: 5px;
@@ -65,17 +62,5 @@ h6 {
 @media (min-width: 768px) and (max-width: 1440px) {
 .container {
 	margin-bottom: 2vw;
-}
-}
-
-@media (min-width: 1440px) and (max-width: 1444px) {
-	.content {
-	 height: 300px;
-}
-}
-
-@media (min-width: 1445px) and (max-width: 2560px) {
-	.content {
-	 height: 500px;
 }
 }
